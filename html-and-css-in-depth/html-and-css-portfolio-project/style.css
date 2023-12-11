@@ -3,6 +3,8 @@ body {
   margin: 5%;
   margin-top: 0;
   font-family: 'PT Serif', serif;
+  font-style: normal;
+  font-weight: normal;
   box-sizing: border-box;
 }
 
@@ -32,6 +34,7 @@ nav ul {
 
 nav ul li {
   font-size: 1.5rem;
+  text-transform: uppercase;
 
 }
 nav ul li a {
@@ -42,7 +45,7 @@ nav ul li a {
 #first-container {
   padding: 15px;
   background-color: rgba(147, 4, 4, 0.379);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   border-radius: 10px;
 }
 
@@ -86,4 +89,13 @@ hr {
 
 footer p {
   text-align: right;
+}
+
+a:hover, #second-container a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited, #second-container a:visited {
+  color: purple;
 }
