@@ -108,3 +108,5 @@ getDiscount(false, 4);
 getDiscount(true, 18);
 getDiscount(false, 18);
 getDiscount();
+
+var test = 1
