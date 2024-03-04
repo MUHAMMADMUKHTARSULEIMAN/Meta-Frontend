@@ -109,4 +109,4 @@ getDiscount(true, 18);
 getDiscount(false, 18);
 getDiscount();
 
-var test = 5
+var test = 4
